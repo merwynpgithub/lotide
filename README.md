@@ -17,3 +17,5 @@
   Implementing lodash without function.
   * [flatten.js](/flatten.js)
   Implenting lodash flatten function.
+  * [middle.js](/middle.js)
+  Implenting lodash middle function.
