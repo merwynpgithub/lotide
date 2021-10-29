@@ -28,3 +28,5 @@
   This function takes an input string and returns an object with the positions of letters in the string. The positions are zero based and are in an array.
   * [findKeyByValue.js](/findKeyByValue.js) <br />
   This function takes an object and a value as arguments and searches if the object has the key, value pair and returns the corresponding key.
+   * [eqObjects.js](/eqObjects.js) <br />
+   This function takes 2 objects as arguments and returns a boolean value if the key/value pairs are similar.
