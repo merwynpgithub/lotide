@@ -21,4 +21,8 @@
   Implenting lodash middle function.
   * [countOnly.js](/countOnly.js) <br />
   This function takes 2 arguments an array of strings and an object specifying what to count. <br />
-  It returns an object containing how many instances of each string were found in the allItems array of strings. <br />
+  It returns an object containing how many instances of each string were found in the allItems array of strings.
+  * [countLetters.js](/countLetters.js) <br />
+  This function takes an input string and returns an object with the count of letters in the string
+  * [letterPositions.js](/letterPositions.js) <br />
+  This function takes an input string and returns an object with the positions of letters in the string. The positions are zero based and are in an array.
