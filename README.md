@@ -26,3 +26,5 @@
   This function takes an input string and returns an object with the count of letters in the string
   * [letterPositions.js](/letterPositions.js) <br />
   This function takes an input string and returns an object with the positions of letters in the string. The positions are zero based and are in an array.
+  * [findKeyByValue.js](/findKeyByValue.js) <br />
+  This function takes an object and a value as arguments and searches if the object has the key, value pair and returns the corresponding key.
