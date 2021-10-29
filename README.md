@@ -19,3 +19,6 @@
   Implenting lodash flatten function.
   * [middle.js](/middle.js)
   Implenting lodash middle function.
+  * [countOnly.js](/countOnly.js) <br />
+  This function takes 2 arguments an array of strings and an object specifying what to count. <br />
+  It returns an object containing how many instances of each string were found in the allItems array of strings. <br />
