@@ -36,3 +36,5 @@
   This function is our own implementation of Array.map() method which takes a callback function and returns an array subject to the function called on every element of the input array.
   * [takeUntil.js](/takeUntil.js) <br />
   This is similar to lowdash takeWhile. TakeUntil function takes an array and callback function and slices the array uptil the callback function condition is evaluated to be false.
+  * [findKey.js](/findKey.js) <br />
+  This function is similar to [findKeyByValue.js](/findKeyByValue.js) but it utlizes a callback function for more flexibility.
