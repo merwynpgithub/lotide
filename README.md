@@ -40,8 +40,8 @@
   * [findKey.js](/findKey.js) <br />
   This function is similar to [findKeyByValue.js](/findKeyByValue.js) but it utlizes a callback function for more flexibility.
 * Week 2
-    * Refactoring code
-    * Using modules to export code
-    * Separated tests [tests](/test) in a separate folder with tests in it.
+  ß* Refactoring code
+  ß* Using modules to export code
+  ß* Separated tests [tests](/test) in a separate folder with tests in it.
   
   
