@@ -43,5 +43,5 @@
   * Refactoring code
   * Using modules to export code
   * Separated tests [tests](/test) in a separate folder with tests in it.
-  
+  * Installing mocha chai and testing using it.
   
