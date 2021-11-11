@@ -1,13 +1,5 @@
 // FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
-  let result;
-  //using emoji
-  let right = String.fromCodePoint(0x2713);
-  let wrong = String.fromCodePoint(0x2717);
-  actual !== expected ? result = `${wrong} Assertion Failed: ${actual} !== ${expected}` : result = `${right} Assertion Passed: ${actual} === ${expected}`;
-  console.log(result);
-};
-
+const assertEqual = require('./assertEqual');
 const countLetters = function(str) {
   const answer = {};
   for (let i = 0; i < str.length; i++) {
@@ -17,6 +9,8 @@ const countLetters = function(str) {
   }
   return answer;
 };
+
+module.exports = countLetters;
 
 console.log(countLetters('LHL'));
 console.log(countLetters('lighthouse in the house'));

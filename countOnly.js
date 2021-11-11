@@ -1,13 +1,5 @@
+const assertEqual = require('./assertEqual');
 // FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
-  let result;
-  //using emoji
-  let right = String.fromCodePoint(0x2713);
-  let wrong = String.fromCodePoint(0x2717);
-  actual !== expected ? result = `${wrong} Assertion Failed: ${actual} !== ${expected}` : result = `${right} Assertion Passed: ${actual} === ${expected}`;
-  console.log(result);
-};
-
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
 const countOnly = function(allItems, itemsToCount) {
@@ -28,6 +20,8 @@ const countOnly = function(allItems, itemsToCount) {
 
   return answer;
 };
+
+module.exports = countOnly;
 
 const firstNames = [
   "Karl",

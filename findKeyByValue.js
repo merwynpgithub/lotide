@@ -1,11 +1,4 @@
-const assertEqual = function(actual, expected) {
-  let result;
-  //using emoji
-  let right = String.fromCodePoint(0x2713);
-  let wrong = String.fromCodePoint(0x2717);
-  actual !== expected ? result = `${wrong} Assertion Failed: ${actual} !== ${expected}` : result = `${right} Assertion Passed: ${actual} === ${expected}`;
-  console.log(result);
-};
+const assertEqual = require('./assertEqual');
 
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
@@ -21,6 +14,7 @@ const findKeyByValue = function(obj, val) {
   }
   return undefined;
 };
+module.exports = findKeyByValue;
 
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
