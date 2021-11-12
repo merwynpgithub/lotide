@@ -39,9 +39,9 @@
   This is similar to lowdash takeWhile. TakeUntil function takes an array and callback function and slices the array uptil the callback function condition is evaluated to be false.
   * [findKey.js](/findKey.js) <br />
   This function is similar to [findKeyByValue.js](/findKeyByValue.js) but it utlizes a callback function for more flexibility.
-* Week 3
+* Week 3/Week 4
   * Refactoring code
   * Using modules to export code
   * Separated tests [tests](/test) in a separate folder with tests in it.
   * Installing mocha chai and testing using it.
-  
+  * Updating eqArrays with Recursion for testing deeply nested arrays (Stretch)
