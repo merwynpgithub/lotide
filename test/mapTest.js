@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const _ = require('../index');
 
-describe('', () => {
+describe('#map', () => {
   const words = ["ground", "control", "to", "major", "tom"];
 
   const result = _.map(words, word => word[0]);
