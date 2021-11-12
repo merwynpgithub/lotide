@@ -12,5 +12,5 @@ const countLetters = function(str) {
 
 module.exports = countLetters;
 
-console.log(countLetters('LHL'));
-console.log(countLetters('lighthouse in the house'));
+// console.log(countLetters('LHL'));
+// console.log(countLetters('lighthouse in the house'));
