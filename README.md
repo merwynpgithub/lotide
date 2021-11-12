@@ -41,7 +41,9 @@
   This function is similar to [findKeyByValue.js](/findKeyByValue.js) but it utlizes a callback function for more flexibility.
 * Week 3/Week 4
   * Refactoring code
-  * Using modules to export code
+  * Using modules to export code.
+  * [index.js](/index.js) <br />
+  Adding index file as a main library file.
   * Separated tests [tests](/test) in a separate folder with tests in it.
   * Installing mocha chai and testing using it.
-  * Updating eqArrays with Recursion for testing deeply nested arrays (Stretch)
+  * Updating eqArrays with Recursion for testing deeply nested arrays (Stretch).
