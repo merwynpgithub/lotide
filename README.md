@@ -11,7 +11,7 @@
   Implementing lodash tail function.
   * [eqArrays.js](/eqArrays.js)<br />
   Implementing function to test if 2 passed arrays are equal.
-  * [assertArraysEqual.js](/assertArraysEqual.js)
+  * [assertArraysEqual.js](/assertArraysEqual.js) <br />
   Use eqArrays function to test equality of 2 arrays using 2 methods: JSON.stringify() or comapring each element of the 2 arrays and using recursion.
   * [without.js](/without.js)<br />
   Implementing lodash without function.
