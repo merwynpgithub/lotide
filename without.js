@@ -1,5 +1,4 @@
 const without = function(source, itemsToRemove) {
-  assertArraysEqual(source, itemsToRemove);
   let ansArray = [];
   if (!itemsToRemove.length) {
     ansArray = source;
