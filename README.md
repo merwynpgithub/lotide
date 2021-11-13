@@ -27,7 +27,8 @@
 
 * Functions in lotide
   * [AssertEqual.js](/assertEqual.js) <br />
-  Implementing console.assert function.
+  Implementing console.assert function. <br />
+  * `_.assertEqual("Lighthouse Labs", "Bootcamp") // => ✗ Assertion Failed: Lighthouse Labs !== Bootcamp`: Logs whether Assertion passed or failed by comparing the 2 arguments.
   * [head.js](/head.js)<br />
   Implementing lodash head function.
   * [tail.js](/tail.js)<br />
