@@ -1,8 +1,31 @@
-# Lotide Repo Description
-## Summary 
+# Lotide Description
+* A mini clone of the [Lodash](https://lodash.com) library
 
-## Table of Contents
-* Week 1
+## Purpose
+
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+
+* This project was created and published by me as part of my learnings at Lighthouse Labs.
+
+## Usage
+
+**Install it:**
+
+`npm install @username/lotide`
+
+**Require it:**
+
+`const _ = require('@username/lotide');`
+
+**Call it:**
+
+`const results = _.tail([1, 2, 3]) // => [2, 3]`
+
+## Documentation
+
+* The following functions are currently implemented:
+
+* Functions in lotide
   * [AssertEqual.js](/assertEqual.js) <br />
   Implementing console.assert function.
   * [head.js](/head.js)<br />
@@ -10,7 +33,7 @@
   * [tail.js](/tail.js)<br />
   Implementing lodash tail function.
   * [eqArrays.js](/eqArrays.js)<br />
-  Implementing function to test if 2 passed arrays are equal.
+  Implementing function to test if 2 passed arrays are equal. Can compare 2 deeply nested arrays using recursion.
   * [assertArraysEqual.js](/assertArraysEqual.js) <br />
   Use eqArrays function to test equality of 2 arrays using 2 methods: JSON.stringify() or comapring each element of the 2 arrays and using recursion.
   * [without.js](/without.js)<br />
@@ -18,8 +41,7 @@
   * [flatten.js](/flatten.js)<br />
   Implenting lodash flatten function.
   * [middle.js](/middle.js)<br />
-  Implenting lodash middle function.
-* Week 2
+  Implementing lodash middle function.
   * [countOnly.js](/countOnly.js) <br />
   This function takes 2 arguments an array of strings and an object specifying what to count. <br />
   It returns an object containing how many instances of each string were found in the allItems array of strings.
@@ -39,11 +61,5 @@
   This is similar to lowdash takeWhile. TakeUntil function takes an array and callback function and slices the array uptil the callback function condition is evaluated to be false.
   * [findKey.js](/findKey.js) <br />
   This function is similar to [findKeyByValue.js](/findKeyByValue.js) but it utlizes a callback function for more flexibility.
-* Week 3/Week 4
-  * Refactoring code
-  * Using modules to export code.
-  * [index.js](/index.js) <br />
-  Adding index file as a main library file.
-  * Separated tests [tests](/test) in a separate folder with tests in it.
+  * Separated [tests](/test) in a separate folder with tests in it.
   * Installing mocha chai and testing using it.
-  * Updating eqArrays with Recursion for testing deeply nested arrays (Stretch).
