@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const findKeyByValue = require('../findKeyByValue');
+const _ = require('../index');
 
 describe('#findKeyByValue', () => {
   const bestTVShowsByGenre = {
@@ -8,10 +8,10 @@ describe('#findKeyByValue', () => {
     drama:  "The Wire"
   };
   it('should return drama if "The Wire" is passed', () => {
-    assert.equal(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
+    assert.equal(_.findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
   });
 
   it('should return undefined if "That 70s Show" is passed', () => {
-    assert.equal(findKeyByValue(bestTVShowsByGenre, "That 70s Show"), undefined);
+    assert.equal(_.findKeyByValue(bestTVShowsByGenre, "That 70s Show"), undefined);
   });
 });
