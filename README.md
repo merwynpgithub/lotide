@@ -78,7 +78,7 @@
   This function leverages on eqObjects and writes a test to show if the assertion passes or fails. There is a mention to use utils.inspect() which converts objects to strings (similar to JSON.stringify()) but hasn't been used. This function logs, doesn't return a value.
   * [map.js](/map.js) <br />
   `_.map(["ground", "control"], word => word[0]) // ["g", "c"]` <br />
-  This function is our own implementation of Array.map() method which takes a callback function and returns an array subject to the function called on every element of the input array.
+  This function is our own implementation of Array.map() method which takes an array and a callback function and returns an array subject to the function called on every element of the input array.
   * [takeUntil.js](/takeUntil.js) <br />
   This is similar to lowdash takeWhile. TakeUntil function takes an array and callback function and slices the array uptil the callback function condition is evaluated to be false.
   * [findKey.js](/findKey.js) <br />
