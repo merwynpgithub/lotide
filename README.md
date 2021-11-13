@@ -32,6 +32,8 @@
   Logs whether Assertion passed or failed by comparing the 2 arguments.
   * [head.js](/head.js)<br />
   Implementing lodash head function.
+  * `_.head([5, 6, 7]) // 5` <br />
+  Returns the first element of an array or undefined if array is empty.
   * [tail.js](/tail.js)<br />
   Implementing lodash tail function.
   * [eqArrays.js](/eqArrays.js)<br />
