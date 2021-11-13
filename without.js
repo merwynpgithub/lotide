@@ -1,5 +1,3 @@
-const assertArraysEqual = require('./assertArraysEqual');
-
 const without = function(source, itemsToRemove) {
   assertArraysEqual(source, itemsToRemove);
   let ansArray = [];
@@ -22,6 +20,3 @@ const without = function(source, itemsToRemove) {
 };
 
 module.exports = without;
-
-// console.log(assertArraysEqual(["hello", "world", "lighthouse"], ["hello", "world", "lighthouse"]));
-// console.log(without(["hello", "world", "lighthouse"], ["hello"]));
