@@ -48,6 +48,8 @@
   Logs whether Assertion passed or failed by comparing the 2 arrays.
   * [without.js](/without.js)<br />
   Implementing lodash without function.
+  * `_.without(["hello", "world", "lighthouse"], ["hello"]) // ["world", "lighthouse"]` <br />
+  Returns the filtered array by removing the arguments passed.
   * [flatten.js](/flatten.js)<br />
   Implementing lodash flatten function.
   * [middle.js](/middle.js)<br />
