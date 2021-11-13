@@ -44,6 +44,8 @@
   Returns a boolean by comparing 2 arrays.
   * [assertArraysEqual.js](/assertArraysEqual.js) <br />
   Use eqArrays function to test equality of 2 arrays using 2 methods: JSON.stringify() or comapring each element of the 2 arrays and using recursion.
+   * `_.assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]) // => ✓ Assertion Passed:  [ '1', '2', '3' ] === [ '1', '2', '3' ]` <br />
+  Logs whether Assertion passed or failed by comparing the 2 arrays.
   * [without.js](/without.js)<br />
   Implementing lodash without function.
   * [flatten.js](/flatten.js)<br />
