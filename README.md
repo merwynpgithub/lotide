@@ -71,7 +71,7 @@
   `_.findKeyByValue({sci_fi: "The Expanse", drama:  "The Wire"}, "The Wire") // "drama"`
   This function takes an object and a value as arguments and searches if the object has the key, value pair and returns the corresponding key.
   * [eqObjects.js](/eqObjects.js) <br />
-  `_.eqObjects({ a: "1", b: "2" }, { b: "2", a: "1" }) // true`
+  `_.eqObjects({ a: "1", b: "2" }, { b: "2", a: "1" }) // true` <br />
   This function takes 2 objects as arguments and returns a boolean value if the key/value pairs are similar.
   * [assertObjectsEqual.js](/assertObjectsEqual.js) <br />
   This function leverages on eqObjects and writes a test to show if the assertion passes or fails. There is a mention to use utils.inspect() which converts objects to strings (similar to JSON.stringify()) but I did not use string interpolation and hence avoided using utils.inspect().
