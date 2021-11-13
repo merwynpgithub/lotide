@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@merwynpatrick/lotide",
   "version": "1.0.0",
-  "description": "lotide testing",
+  "description": "Mini clone of the Lodash library",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/merwynpgithub/lotide.git"
   },
-  "author": "",
+  "author": "Merwyn Patrick",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/merwynpgithub/lotide/issues"
