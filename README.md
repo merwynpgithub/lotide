@@ -11,11 +11,11 @@
 
 **Install it:**
 
-`npm install @username/lotide`
+`npm i @merwynpatrick/lotide`
 
 **Require it:**
 
-`const _ = require('@username/lotide');`
+`const _ = require('@merwynpatrick/lotide');`
 
 **Call it:**
 
