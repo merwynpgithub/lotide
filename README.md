@@ -52,6 +52,8 @@
   Returns the filtered array by removing the arguments passed.
   * [flatten.js](/flatten.js)<br />
   Implementing lodash flatten function.
+  * `_.flatten([1, [2, 3]]) // [1, 2, 3]` <br />
+  Returns the flattened array.
   * [middle.js](/middle.js)<br />
   Implementing lodash middle function.
   * [countOnly.js](/countOnly.js) <br />
