@@ -56,6 +56,8 @@
   Returns the flattened array.
   * [middle.js](/middle.js)<br />
   Implementing lodash middle function.
+  * `_.middle([1, 2, 3]), // [2]` <br />
+  Returns an array containing center element/s. if the array length is less than 3, it returns an empty array.
   * [countOnly.js](/countOnly.js) <br />
   This function takes 2 arguments an array of strings and an object specifying what to count. <br />
   It returns an object containing how many instances of each string were found in the allItems array of strings.
