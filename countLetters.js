@@ -1,5 +1,4 @@
 // FUNCTION IMPLEMENTATION
-const assertEqual = require('./assertEqual');
 const countLetters = function(str) {
   const answer = {};
   for (let i = 0; i < str.length; i++) {
@@ -11,6 +10,3 @@ const countLetters = function(str) {
 };
 
 module.exports = countLetters;
-
-// console.log(countLetters('LHL'));
-// console.log(countLetters('lighthouse in the house'));
