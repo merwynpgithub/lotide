@@ -36,8 +36,12 @@
   Returns the first element of an array or undefined if array is empty.
   * [tail.js](/tail.js)<br />
   Implementing lodash tail function.
+  * `_.tail(["Hello", "Lighthouse", "Labs"]) // ["Lighthouse", "Labs"]` <br />
+  Returns the array exluding the first element.
   * [eqArrays.js](/eqArrays.js)<br />
   Implementing function to test if 2 passed arrays are equal. Can compare 2 deeply nested arrays using recursion.
+  * `_.eqArrays(["1", "2", "3"], ["1", "2", 3]) // false` <br />
+  Returns a boolean by comparing 2 arrays.
   * [assertArraysEqual.js](/assertArraysEqual.js) <br />
   Use eqArrays function to test equality of 2 arrays using 2 methods: JSON.stringify() or comapring each element of the 2 arrays and using recursion.
   * [without.js](/without.js)<br />
