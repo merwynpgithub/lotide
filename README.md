@@ -39,7 +39,7 @@
   * [without.js](/without.js)<br />
   Implementing lodash without function.
   * [flatten.js](/flatten.js)<br />
-  Implenting lodash flatten function.
+  Implementing lodash flatten function.
   * [middle.js](/middle.js)<br />
   Implementing lodash middle function.
   * [countOnly.js](/countOnly.js) <br />
