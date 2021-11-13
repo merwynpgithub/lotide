@@ -57,9 +57,11 @@
   * [middle.js](/middle.js)<br />
   Implementing lodash middle function.
   * `_.middle([1, 2, 3]), // [2]` <br />
-  Returns an array containing center element/s. if the array length is less than 3, it returns an empty array.
+  Returns an array containing center element/s. If the array length is less than 3, it returns an empty array.
   * [countOnly.js](/countOnly.js) <br />
   This function takes 2 arguments an array of strings and an object specifying what to count. <br />
+  * `_.countOnly(["a", "a", "b"]), // {a: 2, b: 1}` <br />
+  This function takes in an array of items and return counts for a specific subset of those items.
   It returns an object containing how many instances of each string were found in the allItems array of strings.
   * [countLetters.js](/countLetters.js) <br />
   This function takes an input string and returns an object with the count of letters in the string
