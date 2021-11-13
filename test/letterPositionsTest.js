@@ -1,8 +1,8 @@
 const assert = require('chai').assert;
-const letterPositions = require('../letterPositions');
+const _ = require('../index');
 
 describe('#letterPositions', () => {
-  const result1 = letterPositions("lighthouse in the house");
+  const result1 = _.letterPositions("lighthouse in the house");
 
   const result2 = result1["e"];
   it('should return [9,16, 22] for e in lighthouse in the house', () => {
