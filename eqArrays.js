@@ -1,6 +1,6 @@
 //Method 1: using JSON.stringify
 const eqArrays = function(actual, expected) {
-  return actual === expected || JSON.stringify(actual) === JSON.stringify(expected);
+  return JSON.stringify(actual) === JSON.stringify(expected);
 };
 
 //Method 2: using recursion:

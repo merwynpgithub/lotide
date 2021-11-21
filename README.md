@@ -49,7 +49,8 @@
   * [without.js](/without.js)<br />
   Implementing lodash without function.
   * `_.without(["hello", "world", "lighthouse"], ["hello"]) // ["world", "lighthouse"]` <br />
-  Returns the filtered array by removing the arguments passed.
+  Returns the filtered array by removing the arguments passed.<br />
+  Added more tests in without function and removed error. 
   * [flatten.js](/flatten.js)<br />
   Implementing lodash flatten function.
   * `_.flatten([1, [2, 3]]) // [1, 2, 3]` <br />

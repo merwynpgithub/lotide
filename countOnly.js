@@ -3,20 +3,12 @@
 // itemsToCount: an object specifying what to count
 const countOnly = function(allItems, itemsToCount) {
   const answer = {};
-  for (let name in itemsToCount) {
+  
+  for (let name of allItems) {
     if (itemsToCount[name]) {
-      answer[name] = 0;
-      for (let i = 0; i < allItems.length; i++) {
-        if (allItems[i] === name) {
-          answer[name]++;
-        }
-      }
-      if (!answer[name]) {
-        delete answer[name];
-      }
+      answer[name] === undefined ? answer[name] = 1 : answer[name] += 1;
     }
   }
-
   return answer;
 };
 

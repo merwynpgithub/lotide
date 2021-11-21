@@ -1,18 +1,11 @@
-const without = function(source, itemsToRemove) {
-  let ansArray = [];
+const without = function (source, itemsToRemove) {
   if (!itemsToRemove.length) {
-    ansArray = source;
-  } else {
-    let minLength = Math.min(source.length, itemsToRemove.length);
-    for (let i = 0; i < minLength; i++) {
-      if (source[i] !== itemsToRemove[i]) {
-        ansArray.push(source);
-      }
-    }
-    if (minLength < source.length) {
-      for (let j = source.length - minLength - 1; j < source.length; j++) {
-        ansArray.push(source[j]);
-      }
+    return source;
+  }
+  const ansArray = [];
+  for (let i = 0; i < source.length; i++) {
+    if (!itemsToRemove.includes(source[i])) {
+      ansArray.push(source[i]);
     }
   }
   return ansArray;
